@@ -20,7 +20,7 @@ A simple and elegant Go package to handle:
 
 ### 📁 Use `go get`
 ```bash
-go get github.com/yourusername/yourrepo
+go get github.com/saravanan611/NotiFly
 ```
 
 
@@ -31,11 +31,12 @@ package main
 
 import (
 	"fmt"
-	"yourmodule/platform" // 🔄 Replace with your actual module path
+
+	notify "github.com/saravanan611/NotiFly"
 )
 
 func main() {
-	p, err := platform.GetPlatform()
+	p, err := notify.GetPlatform()
 	if err != nil {
 		panic(err)
 	}
@@ -54,6 +55,7 @@ func main() {
 		fmt.Println("❌ Notification error:", err)
 	}
 }
+
 ```
 
 ---
