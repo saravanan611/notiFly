@@ -20,7 +20,7 @@ A simple and elegant Go package to handle:
 
 ### 📁 Use `go get`
 ```bash
-go get github.com/saravanan611/NotiFly
+go get github.com/saravanan611/notiFly
 ```
 
 
@@ -32,7 +32,7 @@ package main
 import (
 	"fmt"
 
-	notify "github.com/saravanan611/NotiFly"
+	"github.com/saravanan611/notiFly"
 )
 
 func main() {
